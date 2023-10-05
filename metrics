@@ -1,3 +1,0 @@
-
-# Simple metric for paxpar static front site (generated at build time)
-pp_frontsite_up{build_date="{build_date}",build_hash="{commit_short_sha}",widgets_version="{widgets_version}"} 1.0

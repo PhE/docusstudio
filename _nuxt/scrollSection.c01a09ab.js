@@ -1,1 +1,0 @@
-import{k as s,b as c,c as o,e as t,al as l}from"./entry.8080465b.js";const n={},r={class:"scroll-section scroll-section-v300"},_={class:"sticky"};function a(e,i){return c(),o("div",r,[t("div",_,[l(e.$slots,"default")])])}const f=s(n,[["render",a]]);export{f as default};
