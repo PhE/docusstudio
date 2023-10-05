@@ -1,0 +1,1099 @@
+id: root
+status: OK
+children:
+  - id: sous step
+    name: Fichier valise.pdf déposé
+    icon: mdi-briefcase
+    status: OK
+  - id: pdf
+    name: Analyse PDF
+    icon: mdi-file-pdf-box
+    status: OK
+    children:
+    - id: upload
+      name: Fichier valise.pdf déposé
+      icon: mdi-briefcase
+      status: OK
+  - id: pdf
+    name: Conformité Valise Sécurité
+    icon: mdi-briefcase
+    status: KO
+    children:
+     - id: sous step
+       name: Classeur du Personnel
+       icon: mdi-locker-multiple
+       status: KO
+       children:   
+         - id: sous step
+           name: Formation Initiale de sécurité
+           icon: mdi-network 
+           status: KO       
+           children:
+           - id: sous step
+             name: Conformités salariés
+             icon: mdi-account 
+             status: KO
+             children:
+             - id: sous step
+               name: Sophie DOLLET
+               icon: mdi-account
+               status: KO
+               children:
+               - id: sous step
+                 name: Signature de Sophie DOLLET
+                 icon: mdi-pen
+                 status: OK
+               - id: sous step
+                 name: Manque la signature du formateur
+                 icon: mdi-pen
+                 status: WARNING
+               - id: sous step
+                 name: Livret d'accueil de l'entreprise 
+                 icon: mdi-file-document-box
+                 status: OK
+               - id: sous step
+                 name: la fiche d'accueil
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche de contrôle des connaissances
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche EPI 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Document Unique Sophie DOLLET
+                 icon: mdi-file-document-box
+                 status: OK
+                 children:
+                 - id: sous step
+                   name: Fiche de poste 
+                   icon: mdi-page-layout-header
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: Signature de Sophie DOLLET
+                     icon: mdi-pen
+                     status: OK
+                   - id: sous step
+                     name: Signature de l'entreprise
+                     icon: mdi-pen
+                     status: OK                                
+                 - id: sous step
+                   name: Document Unique dernière version du 11/08/2023
+                   icon: mdi-file-document-box
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: En cohérence avec le plan d'action daté du 01/07/2023 
+                     icon: mdi-alphabetical
+                     status: OK
+                   - id: sous step
+                     name: Signature de Sophie DOLLET
+                     icon: mdi-pen
+                     status: OK
+               - id: sous step
+                 name: Autorisations - Habilitations 
+                 icon: mdi-approval
+                 status: KO
+                 children:
+                 - id: sous step
+                   name: Signature de Sophie DOLLET
+                   icon: mdi-pen
+                   status: OK
+                   children:
+                 - id: sous step
+                   name: 1 pièce jointe
+                   icon: mdi-file
+                   status: KO
+                   children:
+                   - id: sous step
+                     name: 1 fichier carnet_Sophie_DOLLET.pdf
+                     icon: mdi:file-pdf-box
+                     status: KO
+                     children:
+                       - id: sous step
+                         name: 2 signataires
+                         icon: mdi-pen
+                         status: OK
+                         children:
+                          - id: sous step
+                            name: Signature de Sophie DOLLET
+                            icon: mdi-pen
+                            status: OK
+                          - id: sous step
+                            name: Signature de Isabelle LEPAGE
+                            icon: mdi-pen
+                            status: OK                                                 
+                       - id: sous step
+                         name: 5 attestations
+                         icon: mdi-attachment
+                         status: KO
+                         children:
+                          - id: sous step
+                            name: 1 fichier attes_habi_sophie_cariste.pdf
+                            icon: mdi:file-pdf-box
+                            status: KO
+                            children:
+                             - id: sous step
+                               name: Habilitation expirée à compter du 2021-05-24 00:00:00, donc l'habilitation n'est pas valide pendant toute la durée de la mission du 2022-09-14 00:00:00 au 2022-12-31 00:00:00
+                               icon: mdi-calendar
+                               status: KO                              
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                                 
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Sophie DOLLET
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_sophie_fimo.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Sophie DOLLET
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_sophie_electrique.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                            
+                               children:
+                                    - id: sous step
+                                      name: Signature 1/3 Signature de Sophie DOLLET
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 2/3 Signature de Patrick DUPONT
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 3/3 Signature de Thierry PONY
+                                      icon: mdi-pen
+                                      status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_sophie_scn2.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                            
+                               children:
+                                    - id: sous step
+                                      name: Signature 1/3 Signature de Sophie DOLLET
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 2/3 Signature de Patrick DUPONT
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 3/3 Signature de Thierry PONY
+                                      icon: mdi-pen
+                                      status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_sophie_soudeur.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Sophie DOLLET
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK                                                                                                                                                                                                                                                                                                                                                                                                                     
+             - id: sous step
+               name: Paul PIGNON
+               icon: mdi-account
+               status: KO
+               children:
+               - id: sous step
+                 name: Signature de Paul PIGNON non trouvé
+                 icon: mdi-pen
+                 status: KO
+               - id: sous step
+                 name: Manque la signature du formateur
+                 icon: mdi-pen
+                 status: WARNING
+               - id: sous step
+                 name: Livret d'accueil de l'entreprise 
+                 icon: mdi-file-document-box
+                 status: OK
+               - id: sous step
+                 name: la fiche d'accueil 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche de contrôle des connaissances 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche EPI 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Document Unique Paul PIGNON
+                 icon: mdi-file-document-box
+                 status: OK
+                 children:
+                 - id: sous step
+                   name: Fiche de poste 
+                   icon: mdi-page-layout-header
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: Signature de Paul PIGNON
+                     icon: mdi-pen
+                     status: OK
+                   - id: sous step
+                     name: Signature de l'entreprise
+                     icon: mdi-pen
+                     status: OK                                
+                 - id: sous step
+                   name: Document Unique dernière version du 11/08/2023
+                   icon: mdi-file-document-box
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: En cohérence avec le plan d'action daté du 01/07/2023 
+                     icon: mdi-alphabetical
+                     status: OK
+                   - id: sous step
+                     name: Signature de Paul PIGNON
+                     icon: mdi-pen
+                     status: OK
+               - id: sous step
+                 name: Autorisations - Habilitations 
+                 icon: mdi-approval
+                 status: OK
+                 children:
+                 - id: sous step
+                   name: Signature de Paul PIGNON
+                   icon: mdi-pen
+                   status: OK
+                   children:
+                 - id: sous step
+                   name: 1 pièce jointe
+                   icon: mdi-file
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: 1 fichier carnet_Paul_PIGNON.pdf
+                     icon: mdi:file-pdf-box
+                     status: OK
+                     children:
+                       - id: sous step
+                         name: 2 signataires
+                         icon: mdi-pen
+                         status: OK
+                         children:
+                          - id: sous step
+                            name: Signature de Paul PIGNON
+                            icon: mdi-pen
+                            status: OK
+                          - id: sous step
+                            name: Signature de Isabelle LEPAGE
+                            icon: mdi-pen
+                            status: OK                                                 
+                       - id: sous step
+                         name: 4 attestations
+                         icon: mdi-attachment
+                         status: OK
+                         children:
+                          - id: sous step
+                            name: 1 fichier attes_habi_paul_cariste.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Paul PIGNON
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_paul_nacelle.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Paul PIGNON
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_paul_scn2.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                            
+                               children:
+                                    - id: sous step
+                                      name: Signature 1/3 Signature de Paul PIGNON
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 2/3 Signature de Patrick DUPONT
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 3/3 Signature de Thierry PONY
+                                      icon: mdi-pen
+                                      status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_paul_soudeur.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi:file-pdf-box
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Paul PIGNON
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK                                    
+             - id: sous step
+               name: Alain TOURNU
+               icon: mdi-account
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de Alain TOURNU
+                 icon: mdi-pen
+                 status: OK
+               - id: sous step
+                 name: Manque la signature du formateur
+                 icon: mdi-pen
+                 status: WARNING
+               - id: sous step
+                 name: Livret d'accueil de l'entreprise 
+                 icon: mdi-file-document-box
+                 status: OK
+               - id: sous step
+                 name: la fiche d'accueil 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche de contrôle des connaissances 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Fiche EPI 
+                 icon: mdi-page-layout-header
+                 status: OK
+               - id: sous step
+                 name: Document Unique Alain TOURNU
+                 icon: mdi-file-document-box
+                 status: OK
+                 children:
+                 - id: sous step
+                   name: Fiche de poste 
+                   icon: mdi-page-layout-header
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: Signature de Alain TOURNU
+                     icon: mdi-pen
+                     status: OK
+                   - id: sous step
+                     name: Signature de l'entreprise
+                     icon: mdi-pen
+                     status: OK                                
+                 - id: sous step
+                   name: Document Unique dernière version du 11/08/2023
+                   icon: mdi-file-document-box
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: En cohérence avec le plan d'action daté du 01/07/2023 
+                     icon: mdi-alphabetical
+                     status: OK
+                   - id: sous step
+                     name: Signature de Alain TOURNU
+                     icon: mdi-pen
+                     status: OK
+               - id: sous step
+                 name: Autorisations - Habilitations 
+                 icon: mdi-approval
+                 status: OK
+                 children:
+                 - id: sous step
+                   name: Signature de Alain TOURNU
+                   icon: mdi-pen
+                   status: OK
+                   children:
+                 - id: sous step
+                   name: 1 pièce jointe
+                   icon: mdi-file
+                   status: OK
+                   children:
+                   - id: sous step
+                     name: 1 fichier carnet_Alain_TOURNU.pdf
+                     icon: mdi:file-pdf-box
+                     status: OK
+                     children:
+                       - id: sous step
+                         name: 2 signataires
+                         icon: mdi-pen
+                         status: OK
+                         children:
+                          - id: sous step
+                            name: Signature de Alain TOURNU
+                            icon: mdi-pen
+                            status: OK
+                          - id: sous step
+                            name: Signature de Isabelle LEPAGE
+                            icon: mdi-pen
+                            status: OK                                                 
+                       - id: sous step
+                         name: 4 attestations
+                         icon: mdi-attachment
+                         status: OK
+                         children:
+                          - id: sous step
+                            name: 1 fichier attes_habi_alain_cariste.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Alain TOURNU
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_alain_electrique.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                            
+                               children:
+                                    - id: sous step
+                                      name: Signature 1/3 Signature de Alain TOURNU
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 2/3 Signature de Patrick DUPONT
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 3/3 Signature de Thierry PONY
+                                      icon: mdi-pen
+                                      status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_alain_scn2.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK                            
+                               children:
+                                    - id: sous step
+                                      name: Signature 1/3 Signature de Alain TOURNU
+                                      icon: mdi-pen
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 2/3 Signature de Patrick DUPONT
+                                      icon: mdi-penmdi:account-box
+                                      status: OK
+                                    - id: sous step
+                                      name: Signature 3/3 Signature de Thierry PONY
+                                      icon: mdi-pen
+                                      status: OK
+                          - id: sous step
+                            name: 1 fichier attes_habi_alain_nacelle.pdf
+                            icon: mdi:file-pdf-box
+                            status: OK
+                            children:
+                             - id: sous step
+                               name: 3 signataires
+                               icon: mdi-pen
+                               status: OK
+                               children:
+                                 - id: sous step
+                                   name: Signature 1/3 Signature de Alain TOURNU
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 2/3 Signature de Patrick AUTRAN
+                                   icon: mdi-pen
+                                   status: OK
+                                 - id: sous step
+                                   name: Signature 3/3 Signature de Thierry CLAMART
+                                   icon: mdi-pen
+                                   status: OK
+             - id: sous step
+               name: Instruction - Sécurité 
+               icon: mdi-book-open-variant
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de Sophie DOLLET
+                 icon: mdi-pen
+                 status: OK
+               - id: sous step
+                 name: Signature de Paul PIGNON
+                 icon: mdi-pen
+                 status: OK
+               - id: sous step
+                 name: Signature de Alain TOURNU
+                 icon: mdi-pen
+                 status: OK
+             - id: sous step
+               name: Règlement Intérieur
+               icon: mdi-chart-timeline
+               status: OK
+             - id: sous step
+               name: Registre du CHSCT manquant
+               icon: mdi-book-open
+               status: KO
+             - id: sous step
+               name: Registre de l'inspection du travail
+               icon: mdi-book-open
+               status: OK
+             - id: sous step
+               name: Registre du médecin de Prévention
+               icon: mdi-book-open
+               status: OK
+               children:
+               - id: sous step
+                 name: Sophie DOLLET
+                 icon: mdi-account
+                 status: OK
+               - id: sous step
+                 name: Paul PIGNON
+                 icon: mdi-account
+                 status: OK
+               - id: sous step
+                 name: Alain TOURNU
+                 icon: mdi-account
+                 status: OK
+             - id: sous step
+               name: Plan Organisation Evacuation
+               icon: mdi-alphabetical
+               status: OK
+           - id: sous step
+             name: Conformités intérimaires
+             icon: mdi-account 
+             status: OK              
+         - id: sous step
+           name: Plan d'actions
+           icon: mdi-alphabetical
+           status: OK                                                                             
+           children:
+             - id: sous step
+               name: Plan d'actions en complément du document unique
+               icon: mdi-alphabetical
+               status: OK
+     - id: sous step
+       name: Classeur du Matériel
+       icon: mdi-locker-multiple
+       status: KO
+       children:
+         - id: sous step
+           name: Registre de sécurité 
+           icon: mdi-book-open
+           status: KO
+           children:                                     
+           - id: sous step
+             name: Rapport de moins de 3 mois effectué le 13/07/2023
+             icon: mdi-update
+             status: OK
+           - id: sous step
+             name: PDF en pièce jointe
+             icon: mdi-file-pdf-box
+             status: OK             
+           - id: sous step
+             name: Signature de xxxxx
+             icon: mdi-pen
+             status: OK
+           - id: sous step
+             name: Extrait de la GED le 12/072023 à 9h00 
+             icon: mdi-update
+             status: OK
+           - id: sous step
+             name: Rapport Extincteurs 
+             icon: mdi-fire
+             status: KO
+             children:                                     
+             - id: sous step
+               name: Rapport effectué le 13/01/2023 rapport semestriel dépassé
+               icon: mdi-update
+               status: KO             
+           - id: sous step
+             name: Rapport Electricité 
+             icon: mdi-power-plug
+             status: OK
+             children:                                     
+             - id: sous step
+               name: Rapport effectué le 13/07/2023
+               icon: mdi-update
+               status: OK             
+           - id: sous step
+             name: Rapport Portes automatiques 
+             icon: mdi-glassdoor
+             status: OK
+             children:                                     
+             - id: sous step
+               name: Rapport effectué le 13/07/2023
+               icon: mdi-update
+               status: OK             
+           - id: sous step
+             name: Rapport chariots 
+             icon: mdi-cart-outline
+             status: OK
+             children:                                     
+             - id: sous step
+               name: Rapport effectué le 13/07/2023
+               icon: mdi-update
+               status: OK                                                                                      
+         - id: sous step
+           name: Rapport de surveillance des entreposages 
+           icon: mdi-eye
+           status: OK
+           children:
+            - id: sous step
+              name: Entrepot A 
+              icon: mdi-home
+              status: OK
+              children:           
+              - id: sous step
+                name: Mode opératoire de surveillance 
+                icon: mdi-burst-mode
+                status: OK
+              - id: sous step
+                name: Rapport mensuel de surveillance 
+                icon: mdi-eye
+                status: OK                
+                children:
+                - id: sous step
+                  name: Relevé de température le 14/07/2023 à 8h00 
+                  icon: mdi-temperature-celsius
+                  status: OK
+                - id: sous step
+                  name: Compatibilité produits le 14/07/2023 à 8h45 
+                  icon: mdi-quality-high
+                  status: OK
+            - id: sous step
+              name: Entrepot B 
+              icon: mdi-home
+              status: OK
+              children:           
+              - id: sous step
+                name: Mode opératoire de surveillance 
+                icon: mdi-burst-mode
+                status: OK
+              - id: sous step
+                name: Rapport mensuel de surveillance 
+                icon: mdi-eye
+                status: OK                
+                children:
+                - id: sous step
+                  name: Relevé de température le 13/07/2023 à 8h10 
+                  icon: mdi-temperature-celsius
+                  status: OK
+                - id: sous step
+                  name: Compatibilité produits le 12/07/2023 à 18h45 
+                  icon: mdi-quality-high
+                  status: OK
+            - id: sous step
+              name: Entrepot C 
+              icon: mdi-home
+              status: OK
+              children:           
+              - id: sous step
+                name: Mode opératoire de surveillance 
+                icon: mdi-burst-mode
+                status: OK
+              - id: sous step
+                name: Rapport mensuel de surveillance 
+                icon: mdi-eye
+                status: OK                
+                children:
+                - id: sous step
+                  name: Relevé de température le 12/07/2023 à 8h10 
+                  icon: mdi-temperature-celsius
+                  status: OK
+                - id: sous step
+                  name: Compatibilité produits le 15/07/2023 à 18h45 
+                  icon: mdi-quality-high
+                  status: OK                                                     
+         - id: sous step
+           name: Carnets de maintenance 
+           icon: mdi-key
+           status: OK
+     - id: sous step
+       name: Classeur des Entreprises
+       icon: mdi-locker-multiple
+       status: OK
+       children:   
+         - id: sous step
+           name: Fournisseurs
+           icon: mdi-account-circle
+           status: OK
+           children:
+           - id: sous step
+             name: VINCI
+             icon: mdi-home
+             status: OK           
+             children:
+             - id: sous step
+               name: Courrier Protocole
+               icon: mdi-email-open
+               status: OK
+             - id: sous step
+               name: Etat des protocoles Chargement & Déchargement de L’Entreprise
+               icon: mdi-loading
+               status: OK
+             - id: sous step
+               name: Permis de feu du 12/07/2023
+               icon: mdi-tower-fire
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de yyy
+                 icon: mdi-pen
+                 status: OK
+           - id: sous step
+             name: EDF
+             icon: mdi-home
+             status: OK           
+             children:
+             - id: sous step
+               name: Courrier Protocole
+               icon: mdi-email-open
+               status: OK
+             - id: sous step
+               name: Etat des protocoles Chargement & Déchargement de L’Entreprise
+               icon: mdi-loading
+               status: OK
+             - id: sous step
+               name: Permis de feu du 12/07/2023
+               icon: mdi-tower-fire
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de yyy
+                 icon: mdi-pen
+                 status: OK
+           - id: sous step
+             name: CARREFOUR
+             icon: mdi-home
+             status: OK           
+             children:
+             - id: sous step
+               name: Courrier Protocole
+               icon: mdi-email-open
+               status: OK
+             - id: sous step
+               name: Etat des protocoles Chargement & Déchargement de L’Entreprise
+               icon: mdi-loading
+               status: OK
+             - id: sous step
+               name: Permis de feu du 12/07/2023
+               icon: mdi-tower-fire
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de yyy
+                 icon: mdi-pen
+                 status: OK
+           - id: sous step
+             name: LECLERC
+             icon: mdi-home
+             status: OK           
+             children:
+             - id: sous step
+               name: Courrier Protocole
+               icon: mdi-email-open
+               status: OK
+             - id: sous step
+               name: Etat des protocoles Chargement & Déchargement de L’Entreprise
+               icon: mdi-loading
+               status: OK
+             - id: sous step
+               name: Permis de feu du 12/07/2023
+               icon: mdi-tower-fire
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de yyy
+                 icon: mdi-pen
+                 status: OK
+           - id: sous step
+             name: THOLGA
+             icon: mdi-home
+             status: OK           
+             children:
+             - id: sous step
+               name: Courrier Protocole
+               icon: mdi-email-open
+               status: OK
+             - id: sous step
+               name: Etat des protocoles Chargement & Déchargement de L’Entreprise
+               icon: mdi-loading
+               status: OK
+             - id: sous step
+               name: Permis de feu du 12/07/2023
+               icon: mdi-tower-fire
+               status: OK
+               children:
+               - id: sous step
+                 name: Signature de yyy
+                 icon: mdi-pen
+                 status: OK
+         - id: sous step
+           name: Clients
+           icon: mdi-domain
+           status: OK
+           children:
+           - id: sous step
+             name: VINCI
+             icon: mdi-home
+             status: OK
+             children:
+              - id: sous step
+                name: document parking
+                icon: mdi-parking
+                status: OK
+           - id: sous step
+             name: EDF
+             icon: mdi-home
+             status: OK
+             children:
+              - id: sous step
+                name: document parking
+                icon: mdi-parking
+                status: OK                          
+         - id: sous step
+           name: Plans de prévention
+           icon: mdi-alphabetical
+           status: OK
+           children:
+           - id: sous step
+             name: VINCI
+             icon: mdi-account
+             status: OK
+             children:
+             - id: sous step
+               name: Signature de ppp
+               icon: mdi-pen
+               status: OK
+             - id: sous step
+               name: Courrier remis le 12/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Retour courrier le 13/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Fichier etat_plan.pdf
+               icon: mdi-adobe-acrobat
+               status: OK
+             - id: sous-step
+               name: Fichier permis de feu.pdf 
+               icon: mdi-file-pdf-outline
+               status: OK
+           - id: sous step
+             name: EDF
+             icon: mdi-home
+             status: OK
+             children:
+             - id: sous step
+               name: Signature de ppp
+               icon: mdi-pen
+               status: OK
+             - id: sous step
+               name: Courrier remis le 12/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Retour courrier le 13/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Fichier etat_plan.pdf
+               icon: mdi-adobe-acrobat
+               status: OK
+             - id: sous-step
+               name: Fichier permis de feu.pdf 
+               icon: mdi-file-pdf-outline
+               status: OK
+           - id: sous step
+             name: CARREFOUR
+             icon: mdi-home
+             status: OK
+             children:
+             - id: sous step
+               name: Signature de ppp
+               icon: mdi-pen
+               status: OK
+             - id: sous step
+               name: Courrier remis le 12/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Retour courrier le 13/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Fichier etat_plan.pdf
+               icon: mdi-adobe-acrobat
+               status: OK
+             - id: sous-step
+               name: Fichier permis de feu.pdf 
+               icon: mdi-file-pdf-outline
+               status: OK
+           - id: sous step
+             name: LECLERC
+             icon: mdi-home
+             status: OK
+             children:
+             - id: sous step
+               name: Signature de ppp
+               icon: mdi-pen
+               status: OK
+             - id: sous step
+               name: Courrier remis le 12/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Retour courrier le 13/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Fichier etat_plan.pdf
+               icon: mdi-adobe-acrobat
+               status: OK
+             - id: sous-step
+               name: Fichier permis de feu.pdf 
+               icon: mdi-file-pdf-outline
+               status: OK
+           - id: sous step
+             name: THOLGA
+             icon: mdi-home
+             status: OK
+             children:
+             - id: sous step
+               name: Signature de ppp
+               icon: mdi-pen
+               status: OK
+             - id: sous step
+               name: Courrier remis le 12/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Retour courrier le 13/07/2023
+               icon: mdi-update
+               status: OK
+             - id: sous step
+               name: Fichier etat_plan.pdf
+               icon: mdi-adobe-acrobat
+               status: OK
+             - id: sous-step
+               name: Fichier permis de feu.pdf 
+               icon: mdi-file-pdf-outline
+               status: OK                                                                                                         
+
+
+
+                                                                                                                                                             
+                                                                                                                                                   
+  
