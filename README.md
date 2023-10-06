@@ -55,3 +55,27 @@ yarn preview
 ---
 
 For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+
+
+## devpod with paxpar-widgets
+
+use devcontainer `mounts` to mount `$HOME/src/paxpar-widets`.
+
+
+Change in `packages.json`, replace
+```
+"@arundo-tech/paxpar-widgets": "^2.7.13",
+```
+by
+```
+"@arundo-tech/paxpar-widgets": "../paxpar-widgets",
+```
+
+Set env var in .env :
+`PAXPAR_WIDGETS_PATH="../paxpar-widgets"`
+
+
+```shell
+# start dev server
+npx bun run dev
+```
