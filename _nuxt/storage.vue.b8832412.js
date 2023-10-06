@@ -1,0 +1,1 @@
+import{u as o}from"./useProfile.2193879d.js";import{d as r,ao as a,b as s,c as n}from"./entry.e551834a.js";const l=r({__name:"storage",async setup(_){let e,t;return[e,t]=a(()=>o()),e=await e,t(),(c,p)=>(s(),n("h1",null,"Storage providers"))}});export{l as _};
